@@ -41,7 +41,7 @@ Commands:
     
 - `ls`: list items in the specified directory (default: `.`)
     - It is an error to call this on a file
-
+    
     ```sh
         $ ls
         0-start
