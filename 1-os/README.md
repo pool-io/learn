@@ -11,51 +11,56 @@ The core of an operating system is the _kernal_. Its job is take files (programs
 The terminal (or shell) is the space where the user can input instructions for the operating system. It can do everything that can be with a mouse and more.
 
 Definitions:
-    `$` or `%`: start of user input
-        - The character depends on the shell profile that's current running
-        - A line in the terminal that does not start with `$` means it's an output from the program
-    `#`: comment
-        - every character after `#` that in the same line is not run by the shell. It is as if those characters weren't typed in
-    `.`: current directory
-    `..`: parent directory
-    `/`: root directory
-    `directory`: folder
-    `absolute path`: path to an object starting from root (`/`)
-    `relative path`: path to an object relative to current directory (implicit start with `./`)
-    `\`: continue command into the next line
-        Ex.
-            ```sh
-                $ 
-            ```
+- `$` or `%`: start of user input
+    - The character depends on the shell profile that's current running
+    - A line in the terminal that does not start with `$` means it's an output from the program
+- `#`: comment
+    - every character after `#` that in the same line is not run by the shell. It is as if those characters weren't typed in
+- `.`: current directory
+- `..`: parent directory
+- `/`: root directory
+- `directory`: folder
+- `absolute path`: path to an object starting from root (`/`)
+- `relative path`: path to an object relative to current directory (implicit start with `./`)
+- `\`: continue command into the next line
+    
+    ```sh
+        $ echo "hello" || \
+        > echo "world"
+        hello
+        world
+    ```
 
 Commands:
-    - `pwd`: absolute path to working (current) directory
-        Ex.
-            ```sh
-                $ pwd
-                /Users/sbkim/Desktop/pool-io/learn
-            ```
-    - `ls`: list items in the specified directory (default: `.`)
-        - It is an error to call this on a file
-        Ex.
-            ```sh
-                $ ls
-                0-start
-                1-os
-                ...
+- `pwd`: absolute path to working (current) directory
 
-                $ ls . # equal to above
-                0-start
-                1-os
-                ...
+    ```sh
+        $ pwd
+        /Users/sbkim/Desktop/pool-io/learn
+    ```
+    
+- `ls`: list items in the specified directory (default: `.`)
+    - It is an error to call this on a file
 
-                $ ls /Users/sbkim/Desktop # absolute path
-                learn
-                ...
+    ```sh
+        $ ls
+        0-start
+        1-os
+        ...
 
-                $ ls 0-start
-            ```
-    - `cd`: change directory
+        $ ls . # equal to above
+        0-start
+        1-os
+        ...
+
+        $ ls /Users/sbkim/Desktop # absolute path
+        learn
+        ...
+
+        $ ls 0-start
+    ```
+
+- `cd`: change directory
 
 
 ## Excerise
