@@ -1,6 +1,5 @@
 # Getting Started
 
-## Clone
 1. Create a folder to clone this repository into
     - The name of the folder may be anything but make sure its a folder you can easily access
 
@@ -9,6 +8,21 @@
         folder full path: `/Users/sbkim/Desktop/pool-io`
 
 2. Run in Terminal: `git clone https://github.com/pool-io/learn.git`
+
+3. Create a new branch: `git checkout -b <YOUR_NAME>`
+    ```sh
+        $ git checkout -b soungbae
+    ```
+
+4. Set Upstream & Push: `git push -u origin <YOUR_NAME>`
+    ```sh
+        $ git push -u origin soungbae
+    ```
+
+5. Make sure the push worked by going to GitHub
+
+
+_git commands will be covered in later sections_
 
 ## Helpful Shortcuts
 
@@ -31,5 +45,7 @@ This are somewhat universal shortcuts that most applications respond to.
 - `Ctrl+Shift+N`: new incognito window
 - `Ctrl++`: zoom in
 - `Ctrl+-`: zoom out
+- `Ctrl+Click`: select (hold down `Ctrl` to keep other selects)
+- `Ctrl+Click`+`Ctrl+Shift+Click`: select everything between the two clicks (inclusive)
 
 _Exercise: Try them out on vsode and chrome_

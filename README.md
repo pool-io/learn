@@ -26,25 +26,27 @@ Don't waste your time trying to memorize every word. You can always refer back t
 
 4. Makefile
 
-- HTTP/REST
+5. HTTP/REST
 
-- GraphQL
+6. GraphQL
 
-- Docker
+7. Docker
 
-- Firebase Auth
+8. Firebase Auth
 
-- Firebase Firestore
+9. Firebase Firestore
 
-- AWS S3
+10. AWS S3
 
-- ElasticSearch
+11. AWS Cloudfront
 
-- Plaid
+12. ElasticSearch
 
-- AWS EC2
+13. Plaid
 
-- Github
+14. AWS EC2
+
+15. Github
 
 
 ### Frontend
