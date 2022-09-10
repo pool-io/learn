@@ -1,4 +1,4 @@
-package structs
+package basics
 
 type Person struct {
 	// TODO: add neccessary fields
